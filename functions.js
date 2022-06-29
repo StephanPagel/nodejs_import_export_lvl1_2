@@ -14,9 +14,18 @@ const allButFirst = (arr) => {
   return arr.slice(1, arr.length);
 };
 
+const positionN = (arr, n) => {
+  if (n >= 0 && n <= arr.length) {
+    return arr[n];
+  } else {
+    return arr[arr.length - 1];
+  }
+};
+
 module.exports = {
   first,
   allButLast,
   last,
   allButFirst,
+  positionN,
 };

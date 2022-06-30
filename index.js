@@ -1,4 +1,4 @@
-const { names, numbers, input1, input2 } = require("./data");
+const { names, numbers, input1, input2, input3 } = require("./data");
 const {
   first,
   allButLast,
@@ -6,6 +6,7 @@ const {
   allButFirst,
   positionN,
   removeItem,
+  removeDouble,
 } = require("./functions");
 
 console.log(first(names));
@@ -19,3 +20,4 @@ console.log(allButFirst(numbers));
 console.log(positionN(names, 2));
 console.log(positionN(numbers, 20));
 console.log(removeItem(input1, input2));
+console.log(removeDouble(input3));

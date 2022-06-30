@@ -32,6 +32,10 @@ const removeItem = (arr, item) => {
   return newArray;
 };
 
+const removeDouble = (arr) => {
+  return arr.filter((item, index) => arr.indexOf(item) === index);
+};
+
 module.exports = {
   first,
   allButLast,
@@ -39,4 +43,5 @@ module.exports = {
   allButFirst,
   positionN,
   removeItem,
+  removeDouble,
 };

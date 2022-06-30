@@ -42,8 +42,12 @@ const randomNumber = (a, b) => {
   return Math.floor(Math.random() * (b - a + 1) + a);
 };
 
-const upperCase = (str) => {
+const upperCaseFirst = (str) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+const upperCaseAll = (str) => {
+  return str.toUpperCase();
 };
 
 module.exports = {
@@ -56,5 +60,6 @@ module.exports = {
   removeDouble,
   sum,
   randomNumber,
-  upperCase,
+  upperCaseFirst,
+  upperCaseAll,
 };

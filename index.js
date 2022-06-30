@@ -18,7 +18,8 @@ const {
   removeDouble,
   sum,
   randomNumber,
-  upperCase,
+  upperCaseFirst,
+  upperCaseAll,
 } = require("./functions");
 
 console.log(first(names));
@@ -35,4 +36,5 @@ console.log(removeItem(input1, input2));
 console.log(removeDouble(input3));
 console.log(sum(numbers));
 console.log(randomNumber(input4, input5));
-console.log(upperCase(input6));
+console.log(upperCaseFirst(input6));
+console.log(upperCaseAll(input6));

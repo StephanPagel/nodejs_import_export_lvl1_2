@@ -6,6 +6,7 @@ const input2 = "remove";
 const input3 = [1, 6, 9, 2, 1, 6, 7, 10];
 const input4 = 1;
 const input5 = 20;
+const input6 = "stephan";
 
 module.exports = {
   names,
@@ -15,4 +16,5 @@ module.exports = {
   input3,
   input4,
   input5,
+  input6,
 };

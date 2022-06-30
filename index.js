@@ -6,6 +6,7 @@ const {
   input3,
   input4,
   input5,
+  input6,
 } = require("./data");
 const {
   first,
@@ -17,6 +18,7 @@ const {
   removeDouble,
   sum,
   randomNumber,
+  upperCase,
 } = require("./functions");
 
 console.log(first(names));
@@ -33,3 +35,4 @@ console.log(removeItem(input1, input2));
 console.log(removeDouble(input3));
 console.log(sum(numbers));
 console.log(randomNumber(input4, input5));
+console.log(upperCase(input6));

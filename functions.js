@@ -22,10 +22,21 @@ const positionN = (arr, n) => {
   }
 };
 
+let newArray = [];
+const removeItem = (arr, item) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== item) {
+      newArray.push(arr[i]);
+    }
+  }
+  return newArray;
+};
+
 module.exports = {
   first,
   allButLast,
   last,
   allButFirst,
   positionN,
+  removeItem,
 };

@@ -38,7 +38,9 @@ const removeDouble = (arr) => {
 
 const sum = (arr) => arr.reduce((a, b) => a + b, 0);
 
-const 
+const randomNumber = (a, b) => {
+  return Math.floor(Math.random() * (b - a + 1) + a);
+};
 
 module.exports = {
   first,
@@ -49,4 +51,5 @@ module.exports = {
   removeItem,
   removeDouble,
   sum,
+  randomNumber,
 };

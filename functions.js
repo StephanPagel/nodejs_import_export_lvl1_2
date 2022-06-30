@@ -36,6 +36,10 @@ const removeDouble = (arr) => {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 };
 
+const sum = (arr) => arr.reduce((a, b) => a + b, 0);
+
+const 
+
 module.exports = {
   first,
   allButLast,
@@ -44,4 +48,5 @@ module.exports = {
   positionN,
   removeItem,
   removeDouble,
+  sum,
 };

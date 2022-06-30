@@ -7,6 +7,7 @@ const {
   positionN,
   removeItem,
   removeDouble,
+  sum,
 } = require("./functions");
 
 console.log(first(names));
@@ -21,3 +22,4 @@ console.log(positionN(names, 2));
 console.log(positionN(numbers, 20));
 console.log(removeItem(input1, input2));
 console.log(removeDouble(input3));
+console.log(sum(numbers));

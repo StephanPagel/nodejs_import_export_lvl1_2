@@ -20,6 +20,7 @@ const {
   randomNumber,
   upperCaseFirst,
   upperCaseAll,
+  checkLetter,
 } = require("./functions");
 
 console.log(first(names));
@@ -38,3 +39,5 @@ console.log(sum(numbers));
 console.log(randomNumber(input4, input5));
 console.log(upperCaseFirst(input6));
 console.log(upperCaseAll(input6));
+console.log(checkLetter(input6, "x"));
+console.log(checkLetter(input6, "n"));

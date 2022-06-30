@@ -50,6 +50,14 @@ const upperCaseAll = (str) => {
   return str.toUpperCase();
 };
 
+const checkLetter = (str, item) => {
+  if (str[str.length - 1] === item) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
 module.exports = {
   first,
   allButLast,
@@ -62,4 +70,5 @@ module.exports = {
   randomNumber,
   upperCaseFirst,
   upperCaseAll,
+  checkLetter,
 };
